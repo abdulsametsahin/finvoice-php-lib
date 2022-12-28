@@ -1,0 +1,28 @@
+{
+  "name": "edata/finvoice-client",
+  "description": "Finvoice PHP Client",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Edata\\FinvoiceClient\\": "src/"
+    },
+    "files": [
+      "test_config.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Abdulsamet ŞAHİN",
+      "email": "abdulsametsah@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "guzzlehttp/guzzle": "^7.5",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5",
+    "phpstan/phpstan": "^1.9"
+  }
+}

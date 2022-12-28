@@ -1,0 +1,5 @@
+vendor
+test_config.php
+.phpunit.result.cache
+phpunit.xml
+phpunit.xml.dist
